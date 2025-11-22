@@ -1,0 +1,6 @@
+[submodule "eventora-api"]
+	path = eventora-api
+	url = https://github.com/sreeshanthh007/eventora-api.git
+[submodule "eventora-client"]
+	path = eventora-client
+	url = https://github.com/sreeshanthh007/eventora-client.git
