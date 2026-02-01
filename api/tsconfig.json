@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+     "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+
+"baseUrl": "./src",
+"paths": {  
+  "@entities/*": ["entities/*"],
+  "@usecases/*": ["useCases/*"],
+  "@controllers/*": ["interfaceAdapters/controllers/*"],    
+  "@repos/*": ["interfaceAdapters/repositories/*"],         
+  "@services/*": ["interfaceAdapters/services/*"],
+  "@frameworks/*": ["frameworks/*"],
+  "@shared/*": ["shared/*"],
+  "@mappers/*": ["interfaceAdapters/mappers/*"],            
+  "@middlewares/*": ["interfaceAdapters/middlewares/*"],
+  "@websockets/*": ["interfaceAdapters/websockets/*"]   
+}
+  },
+ "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
